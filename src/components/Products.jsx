@@ -1,5 +1,5 @@
 import React from "react";
-import useFetch from "../Hooks/useFetch";
+import useFetch from "../hooks/useFetch";
 import Product from "./Product";
 import styles from "../component_css/Products.module.css";
 
