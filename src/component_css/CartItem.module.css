@@ -1,0 +1,41 @@
+.img {
+  width: 90px;
+  border-radius: 100%;
+}
+.CartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.quantityContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.quantityContainer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.delBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.title {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 536px) {
+  .quantityContainer {
+    gap: 7px;
+  }
+  .CartItem {
+    padding: 0px;
+    gap: 6px;
+  }
+}
